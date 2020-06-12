@@ -12,7 +12,6 @@
   <modules>
         <module>cache</module>
         <module>people-graph</module>
-        <module>throttled-stream</module>
    </modules>
 
   <properties>

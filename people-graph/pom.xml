@@ -10,6 +10,6 @@
     </parent>
 
     <groupId>org.chiragpatel</groupId>
-    <artifactId>people-cache</artifactId>
+    <artifactId>people-graph</artifactId>
     <version>1.0-SNAPSHOT</version>
 </project>
