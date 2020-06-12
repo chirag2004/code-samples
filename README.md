@@ -12,6 +12,7 @@ assumptions, or potential issues related to the solutions implemented.
 ### Typesafe and Threadsafe cache
 1. Build a simple cache implementation that conforms to the following
 interface :
+
 ```java
  public interface Cache {
  public void put(Object key, Object value);
@@ -32,10 +33,10 @@ described above to satisfy the above requirements.
 
 Implement a directed graph of people. Each node in the graph
 should conform to the following interface :
- public interface Node {
+ ```java public interface Node {
  public String name();
  public Set<Node> children();
- }
+ }```
  The graph should conform to the following properties :
  - The graph should contain at least 10 people
  - Each person should have at least 3, first level
