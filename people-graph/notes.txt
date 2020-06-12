@@ -1,0 +1,9 @@
+1. Simple Cache:
+    - Creates a singleton thread-safe cache.
+    - Checks for "assignable" type safety at runtime during "put" operation.
+    - If a cache instance is created for key of type A and value of type B, the cache can only be used for type A and B per JVM instance.
+
+2. People Directed Graph
+    - Could be implemented better by taking care of Node immutability and Node equality
+    - Mostly traverses the graph using various visitors (stateful and stateless) to implement the necessary methods
+
