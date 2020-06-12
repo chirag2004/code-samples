@@ -24,7 +24,7 @@ interface :
  - Guarantee that there is a single instance of the cache
  - Guarantee the type safety of the elements stored in the cache
  - Guarantee the thread safety of the cache
- Build a unit test that demonstrates the functionality of the cache
+ - Build a unit test that demonstrates the functionality of the cache
 based on the above requirements.
  * Note : You are allowed to slightly alter the Cache interface
 described above to satisfy the above requirements.
