@@ -36,7 +36,9 @@ should conform to the following interface :
  ```java public interface Node {
  public String name();
  public Set<Node> children();
- }```
+ }
+```
+
  The graph should conform to the following properties :
  - The graph should contain at least 10 people
  - Each person should have at least 3, first level
